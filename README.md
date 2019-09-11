@@ -15,7 +15,7 @@ You can **download** the raw data from [here](https://drive.google.com/file/d/1O
 
 ## How do I cite Counterfactual Story Reasoning and Generation?
 ```
-@inproceedings{qin-etal-2019-conversing,
+@inproceedings{qin-counterfactual,
     title = "Counterfactual Story Reasoning and Generation",
     author = "Qin, Lianhui and Bosselut, Antoine and Holtzman, Ari and  Bhagavatula, Chandra and  Clark, Elizabeth and Choi, Yejin",
     booktitle = "2019 Conference on Empirical Methods in Natural Language Processing.",
