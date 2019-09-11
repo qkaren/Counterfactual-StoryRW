@@ -12,7 +12,7 @@ Code and data for the following  paper:
 ## Data
 You can **download** the raw data from [here](https://drive.google.com/file/d/150jP5FEHqJD3TmTO_8VGdgqBftTDKn4w/view?usp=sharing) directly. 
 
-Generated data files (see data description below):
+Data files (see data description below):
 1. `train_supervised_small.json`: supervised training set (the same size as in the paper)
 2. `train_supervised_large.json`: supervised training set (different size from in paper as we collected more data)
 3. `train_unsupervised.json`: unsupervised training set
