@@ -76,6 +76,13 @@ The dataset can be **downloaded** from [here](https://drive.google.com/file/d/15
 }
 ```
 
+## Code
+
+*(The code is still under cleanup. More details of code usage will be added soon.)*
+
+* Run `run_[X].sh` for training/testing model `[X]`.
+* The current code depends on [Texar v0.2.1](https://github.com/asyml/texar/releases/tag/v0.2.1)
+
 
 ## Citation
 ```
