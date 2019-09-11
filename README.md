@@ -1,4 +1,4 @@
-# Code and data for "Counterfactual Story Reasoning and Generation"
+# Dataset and code for "Counterfactual Story Reasoning and Generation"
 
 This repo contains the dataset and code for the following paper:
 
@@ -90,7 +90,7 @@ The dataset can be **downloaded** from [here](https://drive.google.com/file/d/15
     title = "Counterfactual Story Reasoning and Generation",
     author = "Qin, Lianhui and Bosselut, Antoine and Holtzman, Ari and  Bhagavatula, Chandra and  Clark, Elizabeth and Choi, Yejin",
     booktitle = "2019 Conference on Empirical Methods in Natural Language Processing.",
-    month = nov,
+    month = "nov",
     year = "2019",
     address = "Hongkong, China",
     publisher = "Association for Computational Linguistics",
