@@ -1,25 +1,25 @@
 # Code and data for "Counterfactual Story Reasoning and Generation"
-<!--
-Confidential, please do not redistribute. The code will be released under an MIT License. (What to do with this sentence?)
--->
-Code and data for the following  paper:
 
-**Counterfactual Story Reasoning and Generation**
-(https://arxiv.org/abs/1909.04076)
+This repo contains the dataset and code for the following paper:
 
-*Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clark and Yejin Choi; EMNLP 2019*
+[Counterfactual Story Reasoning and Generation](https://arxiv.org/abs/1909.04076)  
+*Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clark and Yejin Choi*  
+EMNLP 2019
 
-## Data
-You can **download** the raw data from [here](https://drive.google.com/file/d/150jP5FEHqJD3TmTO_8VGdgqBftTDKn4w/view?usp=sharing) directly. 
+## Dataset: TimeTravel
 
-Data files (see data description below):
-1. `train_supervised_small.json`: supervised training set (the same size as in the paper)
-2. `train_supervised_large.json`: supervised training set (different size from in paper as we collected more data)
+The dataset can be **downloaded** from [here](https://drive.google.com/file/d/150jP5FEHqJD3TmTO_8VGdgqBftTDKn4w/view?usp=sharing). 
+
+**Data files includes** (see examples below):
+1. `train_supervised_small.json`: supervised training set (the training set used in the paper experiments)
+2. `train_supervised_large.json`: supervised training set (a *larger* supervised training set as we annotated more)
 3. `train_unsupervised.json`: unsupervised training set
 4. `dev_data.json`: Dev set
 5. `test_data.json`: Test set
 
-**Supervised training data example**
+**Data format in each file**:
+
+* Supervised training data example
 
 ```
 {
@@ -36,7 +36,7 @@ Data files (see data description below):
 }
 ```
 
-**Unsupervised training data example**
+* Unsupervised training data example 
 
 ```
 {
@@ -48,7 +48,7 @@ Data files (see data description below):
 }
 ```
 
-**Dev data example (the same format as test.)**
+* Dev / test data example
 ```
 {
   "story_id": "048f5a77-7c17-4071-8b0b-b8e43087132d",
@@ -77,7 +77,7 @@ Data files (see data description below):
 ```
 
 
-## How do I cite Counterfactual Story Reasoning and Generation?
+## Citation
 ```
 @inproceedings{qin-counterfactual,
     title = "Counterfactual Story Reasoning and Generation",
