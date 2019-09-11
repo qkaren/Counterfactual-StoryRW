@@ -12,7 +12,7 @@ Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clar
 ## Data
 You can **download** the raw data from [here](https://drive.google.com/file/d/1dPK5Oru08OFAGv0xNH5hTi7mnjiIRbBg/view?usp=sharing) directly. 
 
-** Supervised training data example
+** Supervised training data example **
 
 ```
 {
@@ -29,11 +29,19 @@ You can **download** the raw data from [here](https://drive.google.com/file/d/1d
 }
 ```
 
-** Unsupervised training data example
+** Unsupervised training data example **
 
+```
+{
+  "story_id": "da0e85f1-c586-4236-a8a3-ee6421c8e71d",
+  "premise": "Charles' mother taught her son to carry a pre-paid cell phone.",
+  "initial": "As a job seeker, Charles put his cell phone number on applications.",
+  "counterfactual": "As a job seeker, Charles used his cell phone to keep his information out of employers hands.",
+  "original_ending": "He needed a real cell phone, but kept up with his pre-paid cell phone. One afternoon he was in a phone interview with Apple Computers. He ran out of minutes and never reached Apple's hiring manager again."
+}
+```
 
-
-** Dev data example (the same format as test.)
+** Dev data example (the same format as test.) **
 ```
 {
   "story_id": "048f5a77-7c17-4071-8b0b-b8e43087132d",
