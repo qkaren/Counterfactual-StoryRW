@@ -2,15 +2,22 @@
 <!--
 Confidential, please do not redistribute. The code will be released under an MIT License. (What to do with this sentence?)
 -->
-This is the code for the following paper:
+Code and data for the following  paper:
 
 **Counterfactual Story Reasoning and Generation**
 (https://arxiv.org/abs/1909.04076)
 
-Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clark and Yejin Choi
+*Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clark and Yejin Choi; EMNLP 2019*
 
 ## Data
 You can **download** the raw data from [here](https://drive.google.com/file/d/150jP5FEHqJD3TmTO_8VGdgqBftTDKn4w/view?usp=sharing) directly. 
+
+Generated data files (see data description below):
+1. `train_supervised_small.json`: supervised training set, the same size as in the paper
+2. `train_supervised_large.json`: supervised training set, different size from in paper as we collected more data.
+3. `train_unsupervised.json`: unsupervised training set
+4. `dev.convos.txt`: Conversations of the dev set
+5. `dev.facts.txt`: Facts of the dev set
 
 **Supervised training data example**
 
