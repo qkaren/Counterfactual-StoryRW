@@ -12,6 +12,28 @@ Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clar
 ## Data
 You can **download** the raw data from [here](https://drive.google.com/file/d/1OpLZ48OXQJWLC1GJKIMZfXuNkq9b95C_/view?usp=sharing) directly. 
 
+** Supervised training data example
+
+```
+{
+  "story_id": "4fd7d150-b080-4fb1-a592-8c27fa6e1fc8",
+  "premise": "Andrea wanted a picture of her jumping.",
+  "initial": "She set the camera up.",
+  "counterfactual": "She asked her friend to draw one.",
+  "original_ending": "Then, she jumped in the air. The picture kept coming out wrong. It took twenty tries to get it right.",
+  "edited_ending": [
+    "Then, she jumped in the air to demonstrate how she wanted it to look.",
+    "The picture kept coming out wrong.",
+    "It took drawing it several times to get it right."
+  ]
+}
+```
+
+** Unsupervised training data example
+
+
+
+** Dev data example (the same format as test.)
 ```
 {
   "story_id": "048f5a77-7c17-4071-8b0b-b8e43087132d",
