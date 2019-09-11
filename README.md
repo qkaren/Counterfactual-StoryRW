@@ -10,7 +10,7 @@ This is the code for the following paper:
 Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clark and Yejin Choi
 
 ## Data
-You can **download** the raw data from [here](https://drive.google.com/file/d/1OpLZ48OXQJWLC1GJKIMZfXuNkq9b95C_/view?usp=sharing) directly. 
+You can **download** the raw data from [here](https://drive.google.com/file/d/1dPK5Oru08OFAGv0xNH5hTi7mnjiIRbBg/view?usp=sharing) directly. 
 
 ** Supervised training data example
 
