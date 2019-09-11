@@ -12,6 +12,33 @@ Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clar
 ## Data
 You can **download** the raw data from [here](https://drive.google.com/file/d/1OpLZ48OXQJWLC1GJKIMZfXuNkq9b95C_/view?usp=sharing) directly. 
 
+```
+{
+  "story_id": "048f5a77-7c17-4071-8b0b-b8e43087132d",
+  "premise": "Neil was visiting Limerick in Ireland.",
+  "initial": "There, he saw a beautiful sight.",
+  "counterfactual": "It was the ugliest city he's ever seen.",
+  "original_ending": "He saw the large and lovely River Shannon! After a few minutes, he agreed with the locals. The River Shannon was beautiful.",
+  "edited_endings": [
+    [
+      "He saw the small and lonely River Shannon!",
+      "After a few minutes, he agreed with the locals.",
+      "The River Shannon was lonely."
+    ],
+    [
+      "However, he saw the large and lovely River Shannon!",
+      "After a few minutes, he agreed with the locals.",
+      "The River Shannon was beautiful."
+    ],
+    [
+      "However, he did think the large River Shannon was lovely!",
+      "After a few minutes, he agreed with the locals that Limerick wasn't as ugly as he though.",
+      "The River Shannon was beautiful."
+    ]
+  ]
+}
+```
+
 
 ## How do I cite Counterfactual Story Reasoning and Generation?
 ```
