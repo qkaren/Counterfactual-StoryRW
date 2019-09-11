@@ -12,7 +12,7 @@ Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clar
 ## Data
 You can **download** the raw data from [here](https://drive.google.com/file/d/150jP5FEHqJD3TmTO_8VGdgqBftTDKn4w/view?usp=sharing) directly. 
 
-** Supervised training data example **
+**Supervised training data example**
 
 ```
 {
@@ -29,7 +29,7 @@ You can **download** the raw data from [here](https://drive.google.com/file/d/15
 }
 ```
 
-** Unsupervised training data example **
+**Unsupervised training data example**
 
 ```
 {
@@ -41,7 +41,7 @@ You can **download** the raw data from [here](https://drive.google.com/file/d/15
 }
 ```
 
-** Dev data example (the same format as test.) **
+**Dev data example (the same format as test.)**
 ```
 {
   "story_id": "048f5a77-7c17-4071-8b0b-b8e43087132d",
