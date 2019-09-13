@@ -21,7 +21,7 @@ The dataset can be **downloaded** from [here](https://drive.google.com/file/d/15
 
 * Supervised training data example
 
-```
+```json
 {
   "story_id": "4fd7d150-b080-4fb1-a592-8c27fa6e1fc8",
   "premise": "Andrea wanted a picture of her jumping.",
@@ -38,7 +38,7 @@ The dataset can be **downloaded** from [here](https://drive.google.com/file/d/15
 
 * Unsupervised training data example 
 
-```
+```json
 {
   "story_id": "da0e85f1-c586-4236-a8a3-ee6421c8e71d",
   "premise": "Charles' mother taught her son to carry a pre-paid cell phone.",
@@ -49,7 +49,8 @@ The dataset can be **downloaded** from [here](https://drive.google.com/file/d/15
 ```
 
 * Dev / test data example
-```
+
+```json
 {
   "story_id": "048f5a77-7c17-4071-8b0b-b8e43087132d",
   "premise": "Neil was visiting Limerick in Ireland.",
@@ -85,7 +86,8 @@ The dataset can be **downloaded** from [here](https://drive.google.com/file/d/15
 
 
 ## Citation
-```
+
+```bibtex
 @inproceedings{qin-counterfactual,
     title = "Counterfactual Story Reasoning and Generation",
     author = "Qin, Lianhui and Bosselut, Antoine and Holtzman, Ari and  Bhagavatula, Chandra and  Clark, Elizabeth and Choi, Yejin",
