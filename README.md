@@ -1,27 +1,27 @@
-# Code and data for "Counterfactual Story Reasoning and Generation"
-<!--
-Confidential, please do not redistribute. The code will be released under an MIT License. (What to do with this sentence?)
--->
-Code and data for the following  paper:
+# Dataset and code for "Counterfactual Story Reasoning and Generation"
 
-**Counterfactual Story Reasoning and Generation**
-(https://arxiv.org/abs/1909.04076)
+This repo contains the dataset and code for the following paper:
 
-*Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clark and Yejin Choi; EMNLP 2019*
+[Counterfactual Story Reasoning and Generation](https://arxiv.org/abs/1909.04076)  
+*Lianhui Qin, Antoine Bosselut, Ari Holtzman, Chandra Bhagavatula, Elizabeth Clark and Yejin Choi*  
+EMNLP 2019
 
-## Data
-You can **download** the raw data from [here](https://drive.google.com/file/d/150jP5FEHqJD3TmTO_8VGdgqBftTDKn4w/view?usp=sharing) directly. 
+## Dataset: TimeTravel
 
-Data files (see data description below):
-1. `train_supervised_small.json`: supervised training set (the same size as in the paper)
-2. `train_supervised_large.json`: supervised training set (different size from in paper as we collected more data)
+The dataset can be **downloaded** from [here](https://drive.google.com/file/d/150jP5FEHqJD3TmTO_8VGdgqBftTDKn4w/view?usp=sharing). 
+
+**Data files includes** (see examples below):
+1. `train_supervised_small.json`: supervised training set (the training set used in the paper experiments)
+2. `train_supervised_large.json`: supervised training set (a *larger* supervised training set as we annotated more)
 3. `train_unsupervised.json`: unsupervised training set
 4. `dev_data.json`: Dev set
 5. `test_data.json`: Test set
 
-**Supervised training data example**
+**Data format in each file**:
 
-```
+* Supervised training data example
+
+```json
 {
   "story_id": "4fd7d150-b080-4fb1-a592-8c27fa6e1fc8",
   "premise": "Andrea wanted a picture of her jumping.",
@@ -36,9 +36,9 @@ Data files (see data description below):
 }
 ```
 
-**Unsupervised training data example**
+* Unsupervised training data example 
 
-```
+```json
 {
   "story_id": "da0e85f1-c586-4236-a8a3-ee6421c8e71d",
   "premise": "Charles' mother taught her son to carry a pre-paid cell phone.",
@@ -48,8 +48,9 @@ Data files (see data description below):
 }
 ```
 
-**Dev data example (the same format as test.)**
-```
+* Dev / test data example
+
+```json
 {
   "story_id": "048f5a77-7c17-4071-8b0b-b8e43087132d",
   "premise": "Neil was visiting Limerick in Ireland.",
@@ -76,14 +77,22 @@ Data files (see data description below):
 }
 ```
 
+## Code
 
-## How do I cite Counterfactual Story Reasoning and Generation?
-```
+*(The code is still under cleanup. More details of code usage will be added soon.)*
+
+* Run `run_[X].sh` for training/testing model `[X]`.
+* The current code depends on [Texar v0.2.1](https://github.com/asyml/texar/releases/tag/v0.2.1)
+
+
+## Citation
+
+```bibtex
 @inproceedings{qin-counterfactual,
     title = "Counterfactual Story Reasoning and Generation",
     author = "Qin, Lianhui and Bosselut, Antoine and Holtzman, Ari and  Bhagavatula, Chandra and  Clark, Elizabeth and Choi, Yejin",
     booktitle = "2019 Conference on Empirical Methods in Natural Language Processing.",
-    month = nov,
+    month = "nov",
     year = "2019",
     address = "Hongkong, China",
     publisher = "Association for Computational Linguistics",
