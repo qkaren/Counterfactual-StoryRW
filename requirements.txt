@@ -1,2 +1,3 @@
 tensorflow>=1.12
 regex==2017.4.5
+texar==0.2.1 # Install from https://github.com/asyml/texar/releases/tag/v0.2.1
