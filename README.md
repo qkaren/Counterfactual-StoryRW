@@ -81,8 +81,14 @@ The dataset can be **downloaded** from [here](https://drive.google.com/file/d/15
 
 *(The code is still under cleanup. More details of code usage will be added soon.)*
 
+
+* The code depends on [Texar](https://github.com/asyml/texar). Please install the version under [third_party/texar](./third_party/texar). Follow the installation instructions in the README there. 
 * Run `run_[X].sh` for training/testing model `[X]`.
-* The current code depends on [Texar v0.2.1](https://github.com/asyml/texar/releases/tag/v0.2.1)
+* Use `evaluate.py` for evaluation. An example command is
+```bash
+python evaluate.py --all-preds-dir data/100_output_proced --gold-file data/dev.jsonl &> 100_output_proced_metrics.log
+```
+* The `WMS` and `W+SMS` metrics in the paper (Table.7) use the code [here](https://github.com/eaclark07/sms).  
 
 
 ## Citation
