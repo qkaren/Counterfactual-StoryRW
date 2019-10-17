@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: texar
+Version: 0.2.1
+Summary: Toolkit for Text Generation and Beyond
+Home-page: https://github.com/asyml/texar
+License: Apache License Version 2.0
+Description: 
+        Texar is an open-source toolkit based on Tensorflow,
+        aiming to support a broad set of machine learning especially text generation tasks,
+        such as machine translation, dialog, summarization, content manipulation, language modeling, and so on.
+        
+        Texar is designed for both researchers and practitioners for fast prototyping and experimentation.
+        
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: tensorflow-cpu
+Provides-Extra: tensorflow-gpu
