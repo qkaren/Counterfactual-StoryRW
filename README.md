@@ -88,9 +88,9 @@ The dataset can be **downloaded** from [here](https://drive.google.com/file/d/15
 ```bash
 python evaluate.py --all-preds-dir data/100_output_proced --gold-file data/dev.jsonl &> 100_output_proced_metrics.log
 ```
-* The `WMS` and `W+SMS` metrics in the paper (Table.7) use the code [here](https://github.com/eaclark07/sms).  
+* The `WMS` and `W+SMS` metrics in the paper (Table.7) use the code [here](https://github.com/eaclark07/sms). 
 
-
+ 
 ## Citation
 
 ```bibtex
