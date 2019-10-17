@@ -1,12 +1,17 @@
 <div align="center">
-   <img src="https://zhitinghu.github.io/texar_web/images/logo_h_035.png"><br><br>
+   <img src="https://github.com/asyml/texar/blob/master/docs/_static/img/logo_h_035.png"><br><br>
 </div>
  
 -----------------
 
-[![Build Status](https://travis-ci.org/asyml/texar.svg?branch=master)](https://travis-ci.org/asyml/texar)
-[![Documentation Status](https://readthedocs.org/projects/texar/badge/?version=latest)](https://texar.readthedocs.io/en/latest/?badge=latest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/asyml/texar/blob/master/LICENSE)
+
+**NOTE: This is an adapted version of Texar based on [Texar v0.2.0](https://github.com/asyml/texar/releases/tag/v0.2.0). Install it by:**
+```bash
+pip install -e .
+```
+
+<br/>
  
 **Texar** is an open-source toolkit based on TensorFlow, aiming to support a broad set of machine learning especially **text generation tasks**, such as machine translation, dialog, summarization, content manipulation, language modeling, and so on. Texar is designed for both researchers and practitioners for fast prototyping and experimentation.
  
@@ -17,7 +22,7 @@ With the design goals of **modularity, versatility, and extensibility** in mind,
 With Texar, cutting-edge complex models can be easily constructed, freely enriched with best modeling/training practices, readily fitted into standard training/evaluation pipelines, and fastly experimented and evolved by, e.g., plugging-in and swapping-out different modules.
 
 <div align="center">
-   <img src="https://zhitinghu.github.io/texar_web/images/texar_stack.png"><br><br>
+   <img src="https://github.com/asyml/texar/blob/master/docs/_static/img/texar_stack.png"><br><br>
 </div> 
 
 ### Key Features
