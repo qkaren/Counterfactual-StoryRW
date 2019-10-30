@@ -82,7 +82,11 @@ The dataset can be **downloaded** from [here](https://drive.google.com/file/d/15
 *(The code is still under cleanup. More details of code usage will be added soon.)*
 
 
-* The code depends on [Texar](https://github.com/asyml/texar). Please install the version under [third_party/texar](./third_party/texar). Follow the installation instructions in the README there. 
+* The code depends on [Texar](https://github.com/asyml/texar). Please install the version under [third_party/texar](./third_party/texar). Follow the installation instructions in the README there.
+* Use `prepare_data_rewriting.py` to preprocess the raw text data and transform into TFRecord format. An example command is (please see the code for more config options).
+```bash
+python prepare_data_rewriting.py --data_dir=raw_data_dir
+```
 * Run `run_[X].sh` for training/testing model `[X]`.
 * Use `evaluate.py` for evaluation. An example command is
 ```bash
