@@ -79,7 +79,6 @@ The dataset can be **downloaded** from [here](https://drive.google.com/file/d/15
 
 ## Code
 
-*(The code is still under cleanup. More details of code usage will be added soon.)*
 
 
 * The code depends on [Texar](https://github.com/asyml/texar). Please install the version under [third_party/texar](./third_party/texar). Follow the installation instructions in the README there.
